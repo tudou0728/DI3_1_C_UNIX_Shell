@@ -1,0 +1,63 @@
+# depslib dependency file v1.0
+1484998579 source:/home/liyuanyuan/unix-cours/projet-lyy/shell/cmd.c
+	"cmd.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1483689401 /home/liyuanyuan/unix-cours/projet-lyy/shell/cmd.h
+
+1484997573 source:/home/liyuanyuan/unix-cours/projet-lyy/shell/main.c
+	<pwd.h>
+	<readline/readline.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<sys/types.h>
+	<unistd.h>
+	"shell_fct.h"
+	<sys/stat.h>
+	<fcntl.h>
+	<errno.h>
+	<sys/wait.h>
+	<signal.h>
+	<readline/history.h>
+
+1483689445 /home/liyuanyuan/unix-cours/projet-lyy/shell/shell_fct.h
+	"cmd.h"
+
+1484724641 source:/home/liyuanyuan/unix-cours/projet-lyy/shell/shell_fct.c
+	"shell_fct.h"
+	<sys/types.h>
+	<unistd.h>
+	<stdio.h>
+	<stdlib.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<errno.h>
+	<sys/wait.h>
+	<signal.h>
+
+1484346206 source:/home/liyuanyuan/unix-cours/projet-lyy/shell/watchdog.c
+	<sys/types.h>
+	<unistd.h>
+	<sys/wait.h>
+	<stdio.h>
+	<stdlib.h>
+	<signal.h>
+
+1484942547 source:/home/liyuanyuan/unix-cours/projet-lyy/shell/auto_completion.c
+	<sys/types.h>
+	<sys/file.h>
+	<sys/stat.h>
+	<unistd.h>
+	<fcntl.h>
+	<stdio.h>
+	<errno.h>
+	<string.h>
+	<strings.h>
+	<stdlib.h>
+	<time.h>
+	<readline/readline.h>
+	<readline/history.h>
+
